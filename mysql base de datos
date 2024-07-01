@@ -1,0 +1,12 @@
+CREATE DATABASE PrimaveraSchool;
+GO
+
+USE PrimaveraSchool;
+GO
+
+CREATE TABLE Alumnos (
+    idAlumno INT PRIMARY KEY IDENTITY,
+    nombre VARCHAR(45),
+    nacimiento DATETIME
+);
+
